@@ -7,7 +7,7 @@
 
 // 21:9 Aspect ratio optimized for 3440x1440
 // Use stretch to window option
-// Hud/Ui is adjusted
+// HUD/UI is adjusted
 
 @enabled
 01CC15D4 08AE8152 // mov w8, #0xd70

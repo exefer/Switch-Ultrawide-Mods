@@ -1,0 +1,25 @@
+@nsobid-D91C67509C6AED8D949E33C6B1AEE3074C916C47
+
+# SONIC X SHADOW GENERATIONS [01005EA01C0FC001] - v.1.0.1 - 21:9
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Sonic 01005EA01C0FC001
+// 21:9 Aspect ratio optimized 3440x1440
+// Stretch to window option
+
+@enabled
+007F43F4 00102C1E
+007F43F8 C8719C52
+007F43FC 0803A872
+007F4400 06000014
+007F4414 f8ffff17
+007F4418 0901271E // ar
+01DCFF10 0990201E // culling
+01F3198C 0790201E // culling
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174
