@@ -1,3 +1,6 @@
+> [!WARNING]
+> This fork is not intended to be used by people. It is meant to be processed by code.
+
 Inside the .zip files, you'll find:
 
 - Ultrawide mods (adjusted HUD when possible)
