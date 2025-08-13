@@ -1,0 +1,17 @@
+@nsobid-CF18321E388FE490CDF35E548C70716F490C7F33
+
+# SONIC X SHADOW GENERATIONS [01005EA01C0FC001] - v.1.0.0 - 120FPS
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Sonic 01005EA01C0FC001
+
+@enabled
+007e4a28 38119152 // fps unlocked
+007e4a2c 1881A772 // fps unlocked
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174
