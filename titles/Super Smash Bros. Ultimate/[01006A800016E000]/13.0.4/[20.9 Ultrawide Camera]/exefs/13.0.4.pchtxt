@@ -1,0 +1,40 @@
+@nsobid-3EAE0063B12FD81E99FB5980BA56297049EA94F9
+
+# Super Smash Bros. Ultimate [01006A800016E000] v13.0.4 - 21:9 Ultrawide Camera
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 20:9 Aspect Ratio
+// Use stretch to window option
+// Menus, start screen and texts also adjusted to 20:9
+// This mod adjust the camera zoom to 20:9
+
+@enabled
+04471C5C e4380e40 // Adjust UI texts and Menus Aspect Ratio // Now it changes everything related to AR (v13.0.4)
+035551d8 5f893b17 // b          0x7100437754                // Change Aspect Ratio
+00437754 1F2003D5 // ldr        s2,[x1, #0x16c]             // Original Instruction
+00437758 f353bfa9 // stp        x19,x20,[sp, #-0x10]!       // Save registers 
+0043775c d30102d0 // adrp       x19,0x7104471000            // Set base Offset 
+00437760 625e4cbd // ldr        s2,[x19, #0xc5c]            // Load Aspect Ratio
+00437764 f353c1a8 // ldp        x19,x20,[sp], #0x10         // Restore registers
+00437768 9d76c414 // b          0x71035551dc                // Return to original code 
+035AC3EC 5af33917 // b          0x7100429154                // Fix Disappearing objects on the edge of the screen
+00429154 1F2003D5 // ldr        s8,[x20, #0x16c]            // Original Instruction
+00429154 f353bfa9 // stp        x19,x20,[sp, #-0x10]!       // Save registers 
+00429158 53020290 // adrp       x19,0x7104471000            // Set base Offset 
+0042915c 685e4cbd // ldr        s8,[x19, #0xc5c]            // Load Aspect Ratio
+00429160 f353c1a8 // ldp        x19,x20,[sp], #0x10         // Restore registers
+00429164 a30cc614 // b          0x71035ac3f0                // Return to original code
+004ee20c 8266fc17 // b          0x7100407c14                // Fix the disappearance of the character at the edge of the screen
+00407c14 1F2003D5 // ldr        s0,[x19, #0x128]            // Original Instruction
+00407c18 f353bfa9 // stp        x19,x20,[sp, #-0x10]!       // Save registers 
+00407c1c 530302d0 // adrp       x19,0x7104471000            // Set base Offset 
+00407c20 605e4cbd // ldr        s0,[x19, #0xc5c]            // Load Aspect Ratio
+00407c24 f353c1a8 // ldp        x19,x20,[sp], #0x10         // Restore registers
+00407c28 7a990314 // b          0x71004ee210                // Return to original code 
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174

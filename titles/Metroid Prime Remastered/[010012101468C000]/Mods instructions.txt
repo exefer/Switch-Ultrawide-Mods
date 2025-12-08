@@ -1,0 +1,34 @@
+Reworked all FPS mods, now its working on all emulators and Switch out of the Box, just choose the version you want and boot the game.
+
+- Fixed map speed
+- Fixed cursor speed
+- Fixed all menus and HUD animations
+- Fixed jump and double jump strength
+
+I created a logic that increases the jump strength according to the current FPS.
+
+Resolution mods working on all emulators and Switch out of the Box
+
+- All resolution mods have their vertical FOV increased by 34.4%
+
+Cheats working on Yuzu/Citron/Eden (Haven't tested on Ryujinx/Switch)
+
+Thanks Masagrator for the insights and Stevens for testing stuff.
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174
+
+Current mod version 1.2
+
+1.1 Initial release
+
+- Fixed map speed
+- Fixed cursor speed
+- Fixed all menus and HUD animations
+- Fixed jump and double jump strength
+- Created a logic that increases the jump strength according to the current FPS.
+
+1.2 Bugfix
+
+- Added a fix to avoid freezing the game when using the wave beam charge combo

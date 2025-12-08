@@ -1,6 +1,6 @@
 @nsobid-421C5411B487EB4D049DD065FEC9547773E8E598
 
-# Pokémon Scarlet [0100A3D008C5C000] v3.0.1 - 21:9
+# Pokémon Scarlet [0100A3D008C5C000] v3.0.1/v4.0.0 - 21:9
 
 @flag print_values
 @flag offset_shift 0x100
@@ -10,6 +10,7 @@
 // Use stretch to window option
 
 @enabled
+01526d64 1F2003D5 // nop
 0192bd34 99d4f817 //    b          LAB_7101760f98  
 01760f98 F353BFA9 // stp x19, x20, [sp, #-0x10]!   
 01760f9c 736101d0 //    adrp       x19,0x710438e000

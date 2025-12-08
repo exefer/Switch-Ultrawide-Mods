@@ -1,0 +1,17 @@
+@nsobid-09AD6947189FC6D982207F7535CD13317323FA7A
+
+# INAZUMA ELEVEN Victory Road [0100B36008F90000] v1.2.0 - 120 FPS Dynamic
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 120 FPS Dynamic
+
+@enabled
+00c312a8 13000014
+0047b478 21008052
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174

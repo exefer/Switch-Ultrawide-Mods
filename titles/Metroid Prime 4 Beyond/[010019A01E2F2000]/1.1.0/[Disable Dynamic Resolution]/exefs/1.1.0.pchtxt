@@ -1,0 +1,16 @@
+@nsobid-8275FBE1EC5191C279F3A943AD8524F4BAB087A3
+
+# Metroid Prime 4 Beyond [010019A01E2F2000] v1.1.0 - DR Off
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable Dynamic Resolution
+
+@enabled
+0012d9e0 C0035FD6 // ret                     // Disable Dynamic Resolution
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174

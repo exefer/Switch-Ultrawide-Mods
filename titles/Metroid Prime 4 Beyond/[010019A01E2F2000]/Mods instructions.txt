@@ -1,0 +1,33 @@
+FPS mods working on all emulators out of the Box, just choose the version you want and boot the game.
+Switch not compatible yet
+
+- For resolution mods YOU MUST ENABLE THE INCLUDED CHEAT
+
+Current mod version v1.0 12/05/2025
+
+1.0 Initial release
+
+- Dynamic 30-120FPS
+- Dynamic 30-240FPS
+
+Known issue with some emulators:
+
+- If the game is taking too long to boot, just delete the v2.pchtxt inside the FPS mod,
+you can still unlock the game even without v2 file,
+game will start at 60FPS and you just press ctrl + u on Citron/Eden and F1 on Ryujinx/KenjiNX/Ryubing,
+this will make the game boot much faster and the mod will adjust the speed.
+
+PS: Simply stating that “the game is crashing” is not enough.
+Please open an issue on GitHub and include detailed information, how to reproduce the issue, along with a save file, video, or screenshot whenever possible.
+
+How to install the mods:
+
+Yuzu/Citron/Eden - Right click the game and select "Open Mod Data Location" and extract the .zip there
+
+Ryujinx/Ryubing/KenjiNX - Right click the game and select "Open Mods Directory" and extract the .zip there
+
+Switch - Convert it to IPS and put the files on atmosphere/exefs_patches/*MOD NAME*/xxx.ips
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+All mods are free, but if you want to support me: https://ko-fi.com/Fl4sh9174

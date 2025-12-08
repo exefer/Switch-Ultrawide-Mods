@@ -1,0 +1,21 @@
+@nsobid-8275FBE1EC5191C279F3A943AD8524F4BAB087A3
+
+# Metroid Prime 4 Beyond [010019A01E2F2000] v1.1.0 - LOD
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Improved Lodbias and Anisotropic Filtering
+
+@enabled
+000d74e8 00103C1E // fmov s0, #-0.50000000 // Range from -15 to +15 (+15 = Low quality)
+000d75c0 0010261e // fmov s0, #16.00000000 // Anisotropic filtering
+000d76e4 0010261e // fmov s0, #16.00000000 // Anisotropic filtering
+000d76ec 0010261e // fmov s0, #16.00000000 // Anisotropic filtering
+000d76f4 0010261e // fmov s0, #16.00000000 // Anisotropic filtering
+000d76fc 0010261e // fmov s0, #16.00000000 // Anisotropic filtering
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174

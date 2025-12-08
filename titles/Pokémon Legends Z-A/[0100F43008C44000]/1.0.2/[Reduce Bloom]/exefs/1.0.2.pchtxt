@@ -1,0 +1,18 @@
+@nsobid-7FC4289C788771488C172EF768721B2AAB3431EB
+
+# Pokémon Legends: Z-A [0100F43008C44000] v1.0.2 - Reduce Bloom
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Reduce Bloom
+
+@enabled
+00DEDB8C d4000014 // reduce bloom
+00DED170 1F2003D5 // reduce bloom
+00DEDB84 E003271E // Bloom Intensity (0 disable the effect)
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174

@@ -17,7 +17,7 @@
 00AFA670 F353BFA9 // stp      x19, x20, [sp, #-0x10]!
 00AFA674 1F2003D5 // nop
 00AFA678 13008052 // mov      w19, #0
-00AFA67C 53F9A772 // movk     w19, #0x3fca, lsl #16
+00AFA67C 93F5A772 // movk     w19, #0x3fac, lsl #16
 00AFA680 7402271E // fmov     s20,w19
 00AFA684 800A201E // fmul     s0, s20, s0
 00AFA688 1F2003D5 // nop

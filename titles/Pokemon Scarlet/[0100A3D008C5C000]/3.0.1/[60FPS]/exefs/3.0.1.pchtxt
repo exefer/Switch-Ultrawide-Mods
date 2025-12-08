@@ -1,6 +1,6 @@
 @nsobid-421C5411B487EB4D049DD065FEC9547773E8E598
 
-# Pokémon Scarlet [0100A3D008C5C000] v3.0.1 - 60FPS
+# Pokémon Scarlet [0100A3D008C5C000] v4.0.0 - 60FPS
 
 @flag print_values
 @flag offset_shift 0x100
@@ -15,6 +15,8 @@
 0170c408 0A4EA852
 020a8d3c 68F8A872
 03c2fbb0 2b50fe00
+00d9643c C80A94D2
+00d96440 883FA0F2
 @stop
 
 @Fl4sh_#9174

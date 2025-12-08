@@ -1,0 +1,16 @@
+@nsobid-0CC95D4D30133833D7DF439A890414DE87026609
+
+# Metroid Prime 4 Beyond [010019A01E2F2000] vx.x.x - FPS
+
+@flag print_values
+@flag offset_shift 0x100
+
+// FPS
+
+@enabled
+00197b40 0B008052
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174

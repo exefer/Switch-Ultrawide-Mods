@@ -1,0 +1,35 @@
+@nsobid-7FC4289C788771488C172EF768721B2AAB3431EB
+
+# Pokémon Legends: Z-A [0100F43008C44000] v1.0.2 - 21:9
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 21:9 Aspect Ratio
+// Use stretch to window option
+
+@enabled
+0300318C 8ee31840 // Aspect ratio 3D world
+02BF4B40 1F2003D5 // codecave
+016BDD70 afe05514 //    b          LAB_7102C3602C
+02C3602C F353BFA9 // stp x19, x20, [sp, #-0x10]! 
+02C36030 13000090 // adrp       x19,0x7102c35000 
+02C36034 605E40BD // ldr s0,[x19, #0x05C]        
+02C36038 616240BD // ldr s1,[x19, #0x060]        
+02C3603C 626640BD // ldr s2,[x19, #0x064]        
+02C36040 636A40BD // ldr s3,[x19, #0x068]        
+02C36044 0004046E // mov v0.s[0], v0.s[0]        
+02C36048 20040C6E // mov v0.s[1], v1.s[0]        
+02C3604C 4004146E // mov v0.s[2], v2.s[0]        
+02C36050 60041C6E // mov v0.s[3], v3.s[0]        
+02C36054 F353C1A8 // ldp x19, x20, [sp], #0x10   
+02C36058 471faa17 //    b          LAB_71016BDD74
+02C3605C d6947543 // 245.5813904                 
+02C36060 00000000 // 0                           
+02C36064 ca9ab244 // 1428.837158                 
+02C36068 00008744 // 1080                                    
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174
