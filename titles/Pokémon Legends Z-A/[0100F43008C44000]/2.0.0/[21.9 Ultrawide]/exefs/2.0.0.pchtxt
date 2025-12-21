@@ -1,0 +1,40 @@
+@nsobid-8A1C86C437394B698397A85F45CC776190DBA0F7
+
+# Pokémon Legends: Z-A [0100F43008C44000] v2.0.0 - 21:9
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 21:9 Aspect Ratio
+// Use stretch to window option
+
+@enabled
+0319ac7c 8ee31840 // Aspect ratio 3D world         //
+01279010 C0035FD6 // Codecave                      //
+01803570 1cd8e917 // b 0x71012795e0                // HUD aspect ratio
+012795e0 E827BFA9 // stp x8, x9, [sp, #-16]!       //
+012795e4 e9770290 // adrp       x9,0x7106175000    //
+012795e8 C89A9252 // mov w8, #0x94d6               //
+012795ec A86EA872 // movk w8, #0x4375, lsl #16     //
+012795f0 28B106B9 // str w8, [x9, #0x6b0]          // 245.5813904
+012795f4 08008052 // mov w8, #0                    //
+012795f8 0800A072 // movk w8, #0, lsl #16          //
+012795fc 28B506B9 // str w8, [x9, #0x6b4]          // 0
+01279600 48599352 // mov w8, #0x9aca               //
+01279604 4896A872 // movk w8, #0x44b2, lsl #16     //
+01279608 28B906B9 // str w8, [x9, #0x6b8]          // 1428.837158
+0127960c 08008052 // mov w8, #0                    //
+01279610 E890A872 // movk w8, #0x4487, lsl #16     // 
+01279614 28BD06B9 // str w8, [x9, #0x6bc]          //
+01279618 20ADC13D // ldr q0,[x9, #0x6b0]           // 1080
+0127961c E827C1A8 // ldp x8, x9, [sp], #16         //
+01279620 d5271614 // b 0x7101803574                // Back to the original code
+061756b0 d6947543 // 245.5813904                   // Float table
+061756b4 00000000 // 0                             // Float table
+061756b8 ca9ab244 // 1428.837158                   // Float table
+061756bc 00008744 // 1080                          // Float table
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174

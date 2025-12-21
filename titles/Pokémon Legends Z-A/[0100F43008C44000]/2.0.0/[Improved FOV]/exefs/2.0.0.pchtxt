@@ -1,0 +1,22 @@
+@nsobid-8A1C86C437394B698397A85F45CC776190DBA0F7
+
+# Pokémon Legends: Z-A [0100F43008C44000] v2.0.0 - FOV
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Increased Field of View
+
+@enabled
+00371e4c 54d2b414 // b 0x71030a679c 
+030a679c 817E40BD // ldr  s1,[x20, #0x7c]  // Original instruction
+030a67a0 1E50291E // fmov s30, #0.20312500 // Adjustable fov value
+030a67a4 21283E1E // fadd s1, s1, s30      //
+030a67a8 1f2003d5 // nop                   //
+030a67ac 1f2003d5 // nop                   //
+030a67b0 a82d4b17 // b 0x7100371e50        // Return to original code
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174

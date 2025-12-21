@@ -1,0 +1,16 @@
+@nsobid-8A1C86C437394B698397A85F45CC776190DBA0F7
+
+# Pokémon Legends: Z-A [0100F43008C44000] v2.0.0 - 4K Shadows
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Shadow resolution 4096x4096
+
+@enabled
+00a8a420 09008252 // shadow res
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174
