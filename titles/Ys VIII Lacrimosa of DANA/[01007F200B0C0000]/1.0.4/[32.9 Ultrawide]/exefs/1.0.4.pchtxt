@@ -1,0 +1,16 @@
+@nsobid-351694385B22760D9A2E7AEDE99780F8
+
+# Ys VIII: Lacrimosa of DANA [01007F200B0C0000] v1.0.4 - 32:9
+@flag print_values
+@flag offset_shift 0x100
+
+// Use stretch to window option
+
+@enabled
+0021f758 6B0CA852 // movz w11, #0x4063, lsl #16
+0021f75c 2BC79172 // movk w11, #0x8E39 
+@stop
+
+@Tlin-Y
+https://github.com/Fl4sh9174/Switch-Emulator-Ultrawide-FPS-Mods
+https://Ko-fi.com/Fl4sh9174

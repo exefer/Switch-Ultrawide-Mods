@@ -1,0 +1,19 @@
+@nsobid-6291E14453EE63090164E79B227113F0C24B0CB7000000000000000000000000
+
+# Tomodachi Life: Living the Dream [010051F0207B2000] v1.0.3 - 60FPS
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS
+
+@enabled
+002b95cc 34008052 // 60FPS
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174
+
+# Ported to v1.0.3 by Trojanhammer
+https://github.com/Trojanhammer
